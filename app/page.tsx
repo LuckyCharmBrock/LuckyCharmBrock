@@ -81,7 +81,7 @@ export default function Home() {
               </CardHeader>
               <CardContent className="relative z-10">
                 <p className="text-gray-300">
-                  Our innovative tokenomics include a 1% burn on every transaction, continuously reducing the already
+                  Our innovative tokenomics include a burn on every transaction, continuously reducing the already
                   limited supply. This deflationary mechanism ensures long-term value for holders.
                 </p>
               </CardContent>
