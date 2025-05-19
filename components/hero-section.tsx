@@ -79,16 +79,20 @@ export function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.6 }}
           >
+            <a href="https://swap.rock-swap.io/#/swap?outputCurrency=0xa056871e6796315c558280bff7e7f5d2c5b1f6fb" target="_blank" rel="noopener noreferrer">
             <Button className="bg-green-600 hover:bg-green-700 text-white text-lg px-8 py-6 group">
               Buy $CHARM
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
+            </a>
+            <a href="https://t.me/LuckyCharmBitrock" target="_blank" rel="noopener noreferrer">
             <Button
               variant="outline"
               className="border-green-500 text-green-500 hover:bg-green-500/10 text-lg px-8 py-6"
             >
               Join Community
             </Button>
+            </a>
           </motion.div>
 
           <motion.div
