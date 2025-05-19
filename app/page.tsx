@@ -244,20 +244,11 @@ export default function Home() {
                 <Progress value={12.5} className="h-2 bg-gray-800" indicatorClassName="bg-green-500" />
                 <p className="text-xs text-gray-400 mt-1">Adds to liquidity pool to reduce price impact on trades</p>
               </div>
-
-              <div>
-                <div className="flex justify-between mb-1">
-                  <span className="text-green-400 flex items-center">
-                    <Flame className="mr-2 h-4 w-4" /> Burn
-                  </span>
-                  <span className="text-yellow-500">1%</span>
-                </div>
-                <Progress value={12.5} className="h-2 bg-gray-800" indicatorClassName="bg-green-500" />
-                <p className="text-xs text-gray-400 mt-1">Permanently removed from circulation, increasing scarcity</p>
-              </div>
             </div>
 
             <div className="flex justify-center mt-10">
+
+            <a href="https://explorer.bit-rock.io/token/0xa056871e6796315c558280bff7e7f5d2c5b1f6fb?tab=contract" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="outline"
                 className="border-green-500 text-green-500 hover:bg-green-500/10 px-8 py-3 text-lg group"
@@ -265,6 +256,7 @@ export default function Home() {
                 View Contract Details
                 <ChevronRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
+              </a>
             </div>
           </div>
         </div>
@@ -352,27 +344,18 @@ export default function Home() {
                   <div className="inline-block p-4 bg-black/40 rounded-full mb-4">
                     <Award className="h-12 w-12 text-yellow-500" />
                   </div>
-                  <h3 className="text-2xl font-bold text-yellow-500 mb-2">Current Prize Pool</h3>
-                  <div className="text-4xl md:text-5xl font-bold text-green-400 mb-2">1.28 ETH</div>
-                  <p className="text-gray-400">Worth approximately $3,840</p>
+                  <h3 className="text-2xl font-bold text-yellow-500 mb-2">Min to enter</h3>
+                  <div className="text-4xl md:text-5xl font-bold text-green-400 mb-2">1 $CHARM</div>
+                  <p className="text-gray-400">Hold a CHARM and you are in!</p>
                 </div>
 
                 <div className="space-y-4">
-                  <div className="bg-black/40 p-4 rounded-lg">
-                    <div className="flex justify-between text-sm mb-1">
-                      <span className="text-gray-400">Eligible Wallets:</span>
-                      <span className="text-yellow-500 font-medium">42</span>
-                    </div>
-                    <div className="flex justify-between text-sm">
-                      <span className="text-gray-400">Your Chance of Winning:</span>
-                      <span className="text-yellow-500 font-medium">2.38%</span>
-                    </div>
-                  </div>
-
+                <a href="https://t.me/LuckyCharmBitrock" target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-green-600 hover:bg-green-700 text-white py-6 text-lg group">
-                    Enter Lottery Draw
+                    Learn More
                     <ChevronRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -419,10 +402,12 @@ export default function Home() {
                       <span>Shape the roadmap of the project through community consensus</span>
                     </li>
                   </ul>
+                  <a href="https://t.me/LuckyCharmBitrock" target="_blank" rel="noopener noreferrer">
                   <Button className="mt-8 bg-green-600 hover:bg-green-700 text-white group">
                     Join Governance{" "}
                     <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </Button>
+                  </a>
                 </div>
                 <div className="bg-green-900/20 p-8 rounded-lg border border-green-500/30 flex items-center justify-center relative overflow-hidden group">
                   <div className="absolute -bottom-16 -right-16 text-[200px] text-green-500/10 group-hover:text-green-500/20 transition-colors duration-500">
@@ -455,10 +440,10 @@ export default function Home() {
                   <p className="text-gray-300 mb-4">
                     Official marketplace:{" "}
                     <a
-                      href="https://charmnfts.store"
+                      href="https://market.lucky-charm.xyz"
                       className="text-green-400 underline hover:text-green-300 transition-colors"
                     >
-                      charmnfts.store
+                      market.lucky-charm.xyz
                     </a>
                   </p>
                   <ul className="space-y-3 text-gray-300">
@@ -479,36 +464,38 @@ export default function Home() {
                       <span>Trade and collect on Bitrock blockchain with low fees and fast transactions</span>
                     </li>
                   </ul>
+                  <a href="https://market.lucky-charm.xyz" target="_blank" rel="noopener noreferrer">
                   <Button className="mt-8 bg-green-600 hover:bg-green-700 text-white group">
                     Visit Marketplace{" "}
                     <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </Button>
+                  </a>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-green-900/20 p-4 rounded-lg border border-green-500/30 aspect-square flex items-center justify-center group hover:border-green-400 transition-all duration-300 cursor-pointer">
                     <img
-                      src="/placeholder.svg?height=150&width=150"
+                      src="https://50cf68934011061c9d7e570da2886adb.ipfscdn.io/ipfs/Qmafhwz2ypmCUVtoP4zx1D2bbj5i1FRYMWb2icoieDXTgo/91.jpg"
                       alt="Lucky Charm NFT"
                       className="rounded group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
                   <div className="bg-green-900/20 p-4 rounded-lg border border-green-500/30 aspect-square flex items-center justify-center group hover:border-green-400 transition-all duration-300 cursor-pointer">
                     <img
-                      src="/placeholder.svg?height=150&width=150"
+                      src="https://50cf68934011061c9d7e570da2886adb.ipfscdn.io/ipfs/Qmafhwz2ypmCUVtoP4zx1D2bbj5i1FRYMWb2icoieDXTgo/93.jpg"
                       alt="Lucky Charm NFT"
                       className="rounded group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
                   <div className="bg-green-900/20 p-4 rounded-lg border border-green-500/30 aspect-square flex items-center justify-center group hover:border-green-400 transition-all duration-300 cursor-pointer">
                     <img
-                      src="/placeholder.svg?height=150&width=150"
+                      src="https://50cf68934011061c9d7e570da2886adb.ipfscdn.io/ipfs/Qmafhwz2ypmCUVtoP4zx1D2bbj5i1FRYMWb2icoieDXTgo/77.jpg"
                       alt="Lucky Charm NFT"
                       className="rounded group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
                   <div className="bg-green-900/20 p-4 rounded-lg border border-green-500/30 aspect-square flex items-center justify-center group hover:border-green-400 transition-all duration-300 cursor-pointer">
                     <img
-                      src="/placeholder.svg?height=150&width=150"
+                      src="https://50cf68934011061c9d7e570da2886adb.ipfscdn.io/ipfs/Qmafhwz2ypmCUVtoP4zx1D2bbj5i1FRYMWb2icoieDXTgo/22.jpg"
                       alt="Lucky Charm NFT"
                       className="rounded group-hover:scale-105 transition-transform duration-300"
                     />
@@ -551,8 +538,8 @@ export default function Home() {
                         <Youtube className="text-red-500 mr-3 h-8 w-8" /> Lucky Charm Channel
                       </h3>
                       <p className="text-gray-300 mb-4 max-w-xl">
-                        Watch our bi-weekly lottery draws live, learn about tokenomics, and stay updated with the latest
-                        developments in the Lucky Charm ecosystem. Join our 3,000+ subscribers!
+                        Watch our videos, learn about yhe project, and stay updated with the latest
+                        developments in the Lucky Charm ecosystem.
                       </p>
                     </div>
                     <div className="flex-shrink-0">
@@ -568,14 +555,14 @@ export default function Home() {
                   <div className="mt-6 grid grid-cols-3 gap-4">
                     <div className="bg-black/40 p-3 rounded-lg border border-gray-800 flex items-center justify-center">
                       <div className="text-center">
-                        <div className="text-2xl font-bold text-yellow-500">5+</div>
-                        <div className="text-xs text-gray-400">Videos</div>
+                        <div className="text-2xl font-bold text-yellow-500">Memes</div>
+                        <div className="text-xs text-gray-400">& Info</div>
                       </div>
                     </div>
                     <div className="bg-black/40 p-3 rounded-lg border border-gray-800 flex items-center justify-center">
                       <div className="text-center">
                         <div className="text-2xl font-bold text-yellow-500">Bi-Weekly</div>
-                        <div className="text-xs text-gray-400">Live Draws</div>
+                        <div className="text-xs text-gray-400">Lucky Draws</div>
                       </div>
                     </div>
                     <div className="bg-black/40 p-3 rounded-lg border border-gray-800 flex items-center justify-center">
@@ -599,10 +586,6 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               <span className="text-green-500">Live on</span> <span className="text-yellow-500">Bitrock</span>
             </h2>
-            <p className="text-gray-300 mb-4">
-              Lucky Charm is fully verified and audited on the Bitrock blockchain, ensuring security and transparency
-              for all holders.
-            </p>
             <p className="text-gray-300">Verified smart contract:</p>
             <div className="mt-2 bg-black/60 p-3 rounded-lg border border-green-500/30 inline-block max-w-full overflow-hidden group hover:border-green-400/60 transition-all duration-300">
               <code className="text-green-400 text-xs sm:text-sm md:text-base break-all group-hover:text-green-300 transition-colors">
@@ -619,8 +602,8 @@ export default function Home() {
             <SocialCard
               icon="🌐"
               title="Website"
-              subtitle="luckycharmbitrock.net"
-              url="https://luckycharmbitrock.net"
+              subtitle="lucky-charm.xyz"
+              url="https://lucky-charm.xyz"
               color="green"
             />
 
@@ -694,21 +677,21 @@ export default function Home() {
             </div>
 
             <div>
-              <h4 className="text-yellow-500 font-semibold mb-4">Legal</h4>
+              <h4 className="text-yellow-500 font-semibold mb-4">Socials</h4>
               <ul className="space-y-2 text-gray-400">
                 <li>
-                  <a href="#" className="hover:text-green-400 transition-colors">
-                    Terms of Service
+                  <a href="https://x.com/luckycharmbrock" className="hover:text-green-400 transition-colors">
+                    Twitter/X
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-green-400 transition-colors">
-                    Privacy Policy
+                  <a href="https://t.me/LuckyCharmBitrock" className="hover:text-green-400 transition-colors">
+                    Telegram
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-green-400 transition-colors">
-                    Disclaimer
+                  <a href="https://www.youtube.com/@luckycharm-bitrock" className="hover:text-green-400 transition-colors">
+                    Youtube
                   </a>
                 </li>
               </ul>
