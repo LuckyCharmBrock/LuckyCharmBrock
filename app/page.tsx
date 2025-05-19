@@ -1,4 +1,4 @@
-"use client"
+ "use client"
 import {
   ArrowRight,
   Award,
@@ -145,15 +145,15 @@ export default function Home() {
               <CardHeader className="pb-2">
                 <CardTitle className="text-yellow-500 flex items-center">
                   <Flame className="mr-2 h-5 w-5" />
-                  Deflationary
+                  LP
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-3xl font-bold">1% Burn</p>
-                <p className="text-sm text-gray-400 mt-2">Every transaction reduces total supply</p>
+                <p className="text-3xl font-bold">1% LP</p>
+                <p className="text-sm text-gray-400 mt-2">Every transaction add's to the LP</p>
                 <div className="mt-4 pt-4 border-t border-green-500/20">
                   <p className="text-xs text-gray-500">
-                    Continuous burning mechanism ensures the supply only decreases over time, increasing scarcity
+                    Every transaction add some BROCK to our LP (Liquidity Pool)
                   </p>
                 </div>
               </CardContent>
