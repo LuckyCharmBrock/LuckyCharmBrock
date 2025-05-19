@@ -35,7 +35,9 @@ export function NavBar() {
             <Link href="#" className="text-gray-300 hover:text-green-500 transition-colors">
               NFT
             </Link>
+            <a href="https://swap.rock-swap.io/#/swap?outputCurrency=0xa056871e6796315c558280bff7e7f5d2c5b1f6fb" target="_blank" rel="noopener noreferrer">
             <Button className="bg-green-600 hover:bg-green-700 text-white">Buy $CHARM</Button>
+            </a>
           </nav>
 
           <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
